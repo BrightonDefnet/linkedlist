@@ -5,20 +5,15 @@
 #include "Node.h"
 using namespace std;
 
-void add(int newline);
+void add();
 void print(Node* next);
 Node* head = NULL;
 
 //main program
 int main() {
-    add(1);
-    print(head);
-    add(2);
-    print(head);
-    add(3);
-    print(head);
 }
 
+/*
 //add new node
 void add(int newvalue) {
     Node* current = head;
@@ -33,14 +28,17 @@ void add(int newvalue) {
         current->getNext()->setValue(newvalue); //set the value of the next node
     }
 }
+*/
 
+/*
 //print contents
 void print(Node* next) {
     if (next == head) {
         cout << "list:" << endl;
     }
     if (next != NULL) {
-        cout << next->getValue() << endl;
+        cout << next->getStudent() << endl;
         print(next->getNext()); //recursively print the contents of the list
     }
 }
+*/
