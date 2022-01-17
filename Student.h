@@ -9,9 +9,9 @@ using namespace std;
 class Student {
 
     public:
-        Student(int i);
+        Student(int n);
+        int i = 0;
 
     private:
-        int _i = 0;
 };
 #endif
